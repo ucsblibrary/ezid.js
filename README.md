@@ -40,6 +40,7 @@ client.delete('ark:/99999/fk4honk')
 
 ### Testing
 
-Tests use [sepia](https://github.com/linkedin/sepia) to play back HTTP
-requests.  Use `VCR_MODE=playback npm test` to use existing fixtures, and
-`VCR_MODE=record npm test` to record new ones.
+Tests use [replayer](https://github.com/aneilbaboo/replayer) to play back HTTP requests.
+Use `VCR_MODE=playback npm test` to use existing fixtures, and `VCR_MODE=record
+npm test` to record new ones.  For tests requiring authentication, set the
+environment variable `EZID_PASS` to the EzID test API password.

@@ -1,12 +1,6 @@
 const assert = require('assert')
 const EzID = require('../lib/ezid.js')
-const sepia = require('sepia')
-
-sepia.fixtureDir(`${__dirname}/fixtures/sepia/`)
-sepia.configure({
-  verbose: true,
-  debug: true
-})
+const replayer = require('replayer')
 
 describe('EzID.get', () => {
   it('should return the metadata for a valid query', () => {
