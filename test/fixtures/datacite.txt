@@ -1,0 +1,12 @@
+success: ark:/99999/fk4bg3w58x
+_updated: 1521050852
+_profile: datacite
+datacite.title: god
+_export: yes
+datacite.creator: nobody
+_owner: apitest
+_ownergroup: apitest
+_target: https://ezid.cdlib.org/id/ark:/99999/fk4bg3w58x
+_created: 1521050852
+datacite.publicationyear: 0
+_status: public

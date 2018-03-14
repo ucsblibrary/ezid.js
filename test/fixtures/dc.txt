@@ -1,0 +1,11 @@
+success: ark:/99999/fk4g74m02z
+_updated: 1521050568
+_target: https://ezid.cdlib.org/id/ark:/99999/fk4g74m02z
+_profile: dc
+_export: yes
+_owner: apitest
+dc.creator: myself
+_ownergroup: apitest
+_created: 1521050568
+_status: public
+dc.title: me
