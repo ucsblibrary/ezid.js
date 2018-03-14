@@ -7,7 +7,7 @@ const client = new EzID(
     shoulder: 'ark:/99999/fk4' }
 )
 
-describe('EzID.mint', () => {
+describe('EzID#mint', () => {
   it('should successfully mint an ARK', () => {
     const metadata = {
       '_profile': 'dc',
