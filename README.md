@@ -6,7 +6,7 @@ This JavaScript library provides a simple asynchronous interface to the [EzID AP
 ## Example usage:
 
 ```js
-const EzID = require('../lib/ezid.js')
+const EzID = require('./lib/ezid.js')
 const client = new EzID ({ username: 'apitest', password: 'guess', shoulder: 'ark:/99999/fk4' })
 
 client.createOrUpdate(
