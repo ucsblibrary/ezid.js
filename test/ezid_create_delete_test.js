@@ -24,4 +24,10 @@ describe('EzID#create and #delete', () => {
       })
     })
   })
+
+  it('should fail to delete a nonexistent object', () => {
+    return client.delete('ark:/99999/fk4ucsbno').catch(err => {
+      assert.equal(err.statusCode, '400')
+    })
+  })
 })
