@@ -10,12 +10,14 @@ following three paragraphs appear in all copies.
 Permission to make commercial use of this software may be obtained by
 contacting:
 
+```
 Technology Transfer Office
 9500 Gilman Drive, Mail Code 0910
 University of California
 La Jolla, CA 92093-0910
 (858) 534-5815
 invent@ucsd.edu
+```
 
 This software program and documentation are copyrighted by The Regents
 of the University of California. The software program and
