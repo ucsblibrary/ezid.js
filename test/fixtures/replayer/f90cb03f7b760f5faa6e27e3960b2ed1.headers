@@ -1,7 +1,7 @@
 {
   "statusCode": 200,
   "headers": {
-    "date": "Wed, 14 Mar 2018 22:17:36 GMT",
+    "date": "Thu, 22 Mar 2018 17:30:41 GMT",
     "server": "Apache/2.2.17 (Unix) mod_ssl/2.2.17 OpenSSL/1.0.1e-fips mod_wsgi/4.4.9 Python/2.7.12",
     "content-length": "329",
     "vary": "Accept-Language,Cookie",
@@ -11,7 +11,7 @@
     "content-type": "text/plain; charset=UTF-8"
   },
   "url": "https://ezid.cdlib.org/id/ark:/48907/f3zc8132",
-  "time": 315,
+  "time": 123,
   "request": {
     "method": "GET",
     "headers": {

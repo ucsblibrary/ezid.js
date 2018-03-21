@@ -1,9 +1,0 @@
-{
-  "url": "https://ezid.cdlib.org/id/ark:/48907/f3zc8132",
-  "method": "GET",
-  "headers": {
-    "user-agent": "got/8.3.0 (https://github.com/sindresorhus/got)",
-    "accept-encoding": "gzip,deflate"
-  },
-  "body": ""
-}

@@ -9,16 +9,14 @@ const client = new EzID(
 
 describe('EzID#mint', () => {
   it('should successfully mint an ARK', () => {
-    const metadata = {
-      '_profile': 'dc',
-      'dc.title': 'test thing'
+    const obj = {
+      id: 'ark:/99999/fk45156s6s',
+      metadata: {}
+
     }
 
-    return client.mint(metadata).then(response => {
-      assert.deepEqual(
-        response,
-        { id: 'ark:/99999/fk4ns1zt12' }
-      )
+    return client.mint(obj.metadata).then(response => {
+      assert.deepEqual(response, obj)
     })
   })
 })
