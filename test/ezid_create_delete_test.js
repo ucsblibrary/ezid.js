@@ -9,18 +9,24 @@ const client = new EzID(
 
 describe('EzID#create and #delete', () => {
   it('should successfully create an ARK with the specified ID, then delete it', () => {
-    const metadata = {
-      'dc.title': 'test thing',
-      id: 'ark:/99999/fk4ucsbt',
-      '_profile': 'dc',
-      '_status': 'reserved'
+    const ark = {
+      id: 'ark:/99999/fk4ucsb0',
+      metadata: {
+        'dc.title': 'test thing',
+        '_profile': 'dc',
+        '_status': 'reserved'
+      }
     }
 
-    return client.create(metadata).then(response => {
-      assert.equal(response.id, 'ark:/99999/fk4ucsbt')
+    return client.create(ark).then(response => {
+      assert.deepEqual(
+        response,
+        { id: ark.id,
+          metadata: {} }
+      )
 
-      return client.delete(metadata.id).then(response => {
-        assert.equal(response.id, 'ark:/99999/fk4ucsbt')
+      return client.delete(ark.id).then(response => {
+        assert.equal(response.id, 'ark:/99999/fk4ucsb0')
       })
     })
   })

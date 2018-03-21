@@ -1,7 +1,7 @@
 {
-  "statusCode": 200,
+  "statusCode": 201,
   "headers": {
-    "date": "Wed, 14 Mar 2018 22:48:59 GMT",
+    "date": "Thu, 22 Mar 2018 17:35:03 GMT",
     "server": "Apache/2.2.17 (Unix) mod_ssl/2.2.17 OpenSSL/1.0.1e-fips mod_wsgi/4.4.9 Python/2.7.12",
     "content-length": "28",
     "vary": "Accept-Language,Cookie",
@@ -10,13 +10,15 @@
     "connection": "Keep-Alive",
     "content-type": "text/plain; charset=UTF-8"
   },
-  "url": "https://apitest:blorp@ezid.cdlib.org/id/ark:/99999/fk4ucsbt",
-  "time": 169,
+  "url": "https://apitest:blorp@ezid.cdlib.org/id/ark:/99999/fk4ucsb0",
+  "time": 218,
   "request": {
-    "method": "DELETE",
+    "method": "PUT",
     "headers": {
       "user-agent": "got/8.3.0 (https://github.com/sindresorhus/got)",
-      "accept-encoding": "gzip,deflate"
+      "content-type": "text/plain",
+      "accept-encoding": "gzip,deflate",
+      "content-length": 51
     }
   }
 }

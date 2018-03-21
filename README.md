@@ -11,8 +11,10 @@ const client = new EzID ({ username: 'apitest', password: 'guess', shoulder: 'ar
 
 client.createOrUpdate(
   { id: 'ark:/99999/fk4honk',
-    '_status': 'reserved',
-    'erc.who': "nobody"
+    metadata: {
+      '_status': 'reserved',
+      'erc.who': "nobody"
+    }
   }).then(res => {
     // does not require authentication
     EzID.get(res.id)
@@ -26,7 +28,6 @@ client.createOrUpdate(
   .catch(err => {
     console.log(err)
   })
-
 ```
 
 ```js
