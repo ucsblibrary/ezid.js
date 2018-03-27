@@ -1,5 +1,5 @@
 {
-  "name": "ezid.js",
+  "name": "ezid",
   "version": "0.2.0",
   "description": "EzID API client",
   "main": "lib/ezid.js",
