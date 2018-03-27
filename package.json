@@ -1,6 +1,6 @@
 {
   "name": "ezid.js",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "EzID API client",
   "main": "lib/ezid.js",
   "scripts": {
