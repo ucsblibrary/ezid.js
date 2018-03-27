@@ -15,7 +15,7 @@ The `EzID` class is used to store credentials in order to avoid
 providing them with each request.
 
 ```js
-const EzID = require('./lib/ezid.js')
+const EzID = require('ezid')
 const client = new EzID ({ username: 'apitest', password: 'guess', shoulder: 'ark:/99999/fk4' })
 ```
 
