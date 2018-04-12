@@ -27,6 +27,7 @@
     "validator": "9.4.x"
   },
   "devDependencies": {
+    "jsdoc": "^3.5.5",
     "mocha": "5.0.x",
     "replayer": "2.2.x"
   }
