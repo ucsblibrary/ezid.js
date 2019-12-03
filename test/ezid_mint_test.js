@@ -10,9 +10,8 @@ const client = new EzID(
 describe('EzID#mint', () => {
   it('should successfully mint an ARK', () => {
     const obj = {
-      id: 'ark:/99999/fk45156s6s',
+      id: 'ark:/99999/fk4t451g19',
       metadata: {}
-
     }
 
     return client.mint(obj.metadata).then(response => {

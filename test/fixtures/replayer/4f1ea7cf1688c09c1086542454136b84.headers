@@ -1,0 +1,40 @@
+{
+  "statusCode": 201,
+  "headers": {
+    "date": "Wed, 04 Dec 2019 00:04:30 GMT",
+    "server": "Apache/2.2.17 (Unix) mod_ssl/2.2.17 OpenSSL/1.0.1e-fips mod_wsgi/4.4.9 Python/2.7.12",
+    "content-length": "28",
+    "vary": "Accept-Language,Cookie",
+    "content-language": "en",
+    "connection": "close",
+    "content-type": "text/plain; charset=UTF-8"
+  },
+  "url": "https://ezid.cdlib.org/id/ark:/99999/fk4ucsb3",
+  "time": 108,
+  "request": {
+    "method": "PUT",
+    "headers": {
+      "Content-Type": [
+        "text/plain"
+      ],
+      "Authorization": [
+        "Basic blorp"
+      ],
+      "Accept": [
+        "*/*"
+      ],
+      "Content-Length": [
+        "51"
+      ],
+      "User-Agent": [
+        "node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+      ],
+      "Accept-Encoding": [
+        "gzip,deflate"
+      ],
+      "Connection": [
+        "close"
+      ]
+    }
+  }
+}

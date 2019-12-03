@@ -39,13 +39,13 @@ describe('EzID#createOrUpdate', () => {
               id: updated.id,
               metadata: Object.assign(
                 updated.metadata, {
-                  "_created": "1521068520",
+                  "_created": "1575407201",
                   "_export": "yes",
                   "_owner": "apitest",
                   "_ownergroup": "apitest",
                   "_status": "public",
                   "_target": "https://ezid.cdlib.org/id/ark:/99999/fk4ucsbt0",
-                  "_updated": "1521739840"
+                  "_updated": "1575417870"
                 }
               )
             })

@@ -1,0 +1,19 @@
+{
+  "url": "https://ezid.cdlib.org/id/ark:/48907/f3zc8132",
+  "method": "GET",
+  "headers": {
+    "Accept": [
+      "*/*"
+    ],
+    "User-Agent": [
+      "node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+    ],
+    "Accept-Encoding": [
+      "gzip,deflate"
+    ],
+    "Connection": [
+      "close"
+    ]
+  },
+  "body": ""
+}

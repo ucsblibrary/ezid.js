@@ -1,0 +1,28 @@
+{
+  "url": "https://ezid.cdlib.org/id/ark:/99999/fk4ucsb0",
+  "method": "PUT",
+  "headers": {
+    "Content-Type": [
+      "text/plain"
+    ],
+    "Authorization": [
+      "Basic YXBpdGVzdDphcGl0ZXN0"
+    ],
+    "Accept": [
+      "*/*"
+    ],
+    "Content-Length": [
+      "51"
+    ],
+    "User-Agent": [
+      "node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+    ],
+    "Accept-Encoding": [
+      "gzip,deflate"
+    ],
+    "Connection": [
+      "close"
+    ]
+  },
+  "body": "dc.title: test thing\n_profile: dc\n_status: reserved"
+}
