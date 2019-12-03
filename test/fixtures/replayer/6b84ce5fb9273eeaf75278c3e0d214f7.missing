@@ -1,0 +1,28 @@
+{
+  "url": "https://ezid.cdlib.org/shoulder/ark:/99999/fk4",
+  "method": "POST",
+  "headers": {
+    "Content-Type": [
+      "text/plain"
+    ],
+    "Authorization": [
+      "Basic YXBpdGVzdDphcGl0ZXN0"
+    ],
+    "Accept": [
+      "*/*"
+    ],
+    "Content-Length": [
+      "0"
+    ],
+    "User-Agent": [
+      "node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+    ],
+    "Accept-Encoding": [
+      "gzip,deflate"
+    ],
+    "Connection": [
+      "close"
+    ]
+  },
+  "body": ""
+}

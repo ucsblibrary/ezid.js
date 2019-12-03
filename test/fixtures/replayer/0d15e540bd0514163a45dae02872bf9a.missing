@@ -1,0 +1,22 @@
+{
+  "url": "https://ezid.cdlib.org/id/ark:/99999/fk4ucsbno",
+  "method": "DELETE",
+  "headers": {
+    "Authorization": [
+      "Basic YXBpdGVzdDphcGl0ZXN0"
+    ],
+    "Accept": [
+      "*/*"
+    ],
+    "User-Agent": [
+      "node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+    ],
+    "Accept-Encoding": [
+      "gzip,deflate"
+    ],
+    "Connection": [
+      "close"
+    ]
+  },
+  "body": ""
+}

@@ -10,15 +10,16 @@ const client = new EzID(
 describe('EzID#create, #update', () => {
   it('should successfully create an ARK, then update it', () => {
     const original = {
-      id: 'ark:/99999/fk4ucsb1',
+      id: 'ark:/99999/fk4ucsb3',
       metadata: {
         'dc.title': 'test thing',
-        '_profile': 'dc'
+        '_profile': 'dc',
+        '_status': 'reserved'
       }
     }
 
     const updated = {
-      id: 'ark:/99999/fk4ucsb1',
+      id: 'ark:/99999/fk4ucsb3',
       metadata: {
         'dc.title': 'real thing',
         '_profile': 'dc'
@@ -38,13 +39,13 @@ describe('EzID#create, #update', () => {
               id: updated.id,
               metadata: Object.assign(
                 updated.metadata, {
-                  "_created": "1521740193",
+                  "_created": "1575417870",
                   "_export": "yes",
                   "_owner": "apitest",
                   "_ownergroup": "apitest",
-                  "_status": "public",
-                  "_target": "https://ezid.cdlib.org/id/ark:/99999/fk4ucsb1",
-                  "_updated": "1521740193"
+                  "_status": "reserved",
+                  "_target": "https://ezid.cdlib.org/id/ark:/99999/fk4ucsb3",
+                  "_updated": "1575417870"
                 }
               )
             }

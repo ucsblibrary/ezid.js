@@ -4,6 +4,6 @@ replayer.fixtureDir(`${__dirname}/fixtures/replayer/`)
 replayer.configure({
   verbose: false
 })
-replayer.substitute(':blorp@', () => {
-  return `:${process.env.EZID_PASS}@`
+replayer.substitute('blorp', () => {
+  return Buffer.from(`apitest:${process.env.EZID_PASS}`).toString('base64')
 })
