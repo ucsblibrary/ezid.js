@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ucsblibrary/ezid.js.git"
+    "url": "git+https://gitlab.com/ucsb-library/ezid.js.git"
   },
   "keywords": [
     "ezid",
@@ -18,9 +18,9 @@
   "author": "Alexandra Dunn",
   "license": "SEE LICENSE IN LICENSE.MD",
   "bugs": {
-    "url": "https://github.com/ucsblibrary/ezid.js/issues"
+    "url": "https://gitlab.com/ucsb-library/ezid.js/issues"
   },
-  "homepage": "https://github.com/ucsblibrary/ezid.js#readme",
+  "homepage": "https://gitlab.com/ucsb-library/ezid.js",
   "dependencies": {
     "node-fetch": "^2.6.0",
     "validator": "9.4.x"
