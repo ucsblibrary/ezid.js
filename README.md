@@ -5,6 +5,10 @@ This JavaScript library provides a simple asynchronous interface to the [EzID AP
 
 *Current supports only ARK methods; DOI is not yet supported.*
 
+```
+npm install ezid
+```
+
 ## API Reference
 
 The asynchronous functions all return [Promises](https://developers.google.com/web/fundamentals/primers/promises).
