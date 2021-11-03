@@ -23,7 +23,7 @@
   "homepage": "https://gitlab.com/ucsb-library/ezid.js",
   "dependencies": {
     "node-fetch": "^2.6.0",
-    "validator": "9.4.x"
+    "validator": "13.7.x"
   },
   "devDependencies": {
     "jsdoc": "^3.6.3",
